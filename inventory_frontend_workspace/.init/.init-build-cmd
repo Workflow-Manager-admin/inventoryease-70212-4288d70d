@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/inventoryease-70212-4288d70d/inventory_frontend_workspace/inventory_frontend"
+}

@@ -1,0 +1,4 @@
+{
+    "command": "python manage.py test",
+    "working_directory": "/home/kavia/workspace/code-generation/inventoryease-70212-4288d70d/inventory_backend_workspace/inventory_backend"
+}
