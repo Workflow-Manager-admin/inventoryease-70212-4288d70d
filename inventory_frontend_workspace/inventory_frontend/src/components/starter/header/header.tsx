@@ -13,6 +13,11 @@ export default component$(() => {
         </div>
         <ul>
           <li>
+            <a href="/inventory" style={{ fontWeight: 600 }}>
+              Inventory
+            </a>
+          </li>
+          <li>
             <a
               href="https://qwik.dev/docs/components/overview/"
               target="_blank"

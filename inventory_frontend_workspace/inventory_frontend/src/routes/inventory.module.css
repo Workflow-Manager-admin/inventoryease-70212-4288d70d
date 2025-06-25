@@ -1,0 +1,129 @@
+.inventory-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #3498db 0%, #6c63ff 70%, #45e5b6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+
+.inventory-container {
+  background: rgba(255,255,255,0.85);
+  border-radius: 18px;
+  box-shadow: 0 4px 16px 0 rgba(52, 98, 219, 0.08), 0 1.5px 3px #6c63ff13;
+  margin-top: 50px;
+  padding: 28px 24px 30px 24px;
+  min-width: 300px;
+  max-width: 430px;
+  width: 100%;
+}
+
+.inventory-title {
+  color: #22253a;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.inventory-list {
+  width: 100%;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inventory-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6f8fb;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 1.06rem;
+  font-weight: 500;
+  color: #2c3546;
+  box-shadow: 0 0.5px 2.5px #6c63ff0d;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+.item-name {
+  font-weight: 600;
+  color: #3997db;
+}
+.item-qty {
+  font-size: 1rem;
+  color: #8888aa;
+}
+
+.delete-btn {
+  background: #ff496c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.delete-btn:hover {
+  background: #ec2551;
+}
+
+.add-form {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.input-field {
+  flex: 1 1 120px;
+  padding: 12px 10px;
+  border: 1.2px solid #6c63ff28;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fafbfc;
+  color: #3a3c5c;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  background: #45e5b6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.13s;
+  margin-left: 3px;
+}
+.add-btn:hover {
+  background: #34cea4;
+}
+
+@media (max-width: 650px) {
+  .inventory-container {
+    margin-top: 24px;
+    padding: 14px 4vw 18px 4vw;
+    max-width: 97vw;
+  }
+  .inventory-bg {
+    padding-bottom: 10vw;
+  }
+}
